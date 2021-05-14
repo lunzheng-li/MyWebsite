@@ -20,6 +20,7 @@ li{
 
 header {
     float: left;
+    position: fixed;
     margin-top: 20px;
     -webkit-font-smoothing: subpixel-antialiased;
 }
