@@ -1,4 +1,4 @@
 # MyWebsite
-This my personal academic website
+This my personal academic homepage
 # Last major updated on:
-# May 18, 2021
+May 18, 2021
