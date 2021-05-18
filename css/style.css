@@ -12,6 +12,7 @@ img{
 	border-width: 1px;
 	border-style: solid;
 	padding: 3px;
+    width: 165px;
 }
 
 li{
@@ -21,13 +22,14 @@ li{
 header {
     float: left;
     position: fixed;
-    margin-top: 20px;
+    width: 10%;
     -webkit-font-smoothing: subpixel-antialiased;
 }
 
 section {
+    width: 80%;
     float: right;
-    margin-top: 30px;
+    margin: 50px 0px;
 }
 
 a.small{
@@ -63,7 +65,19 @@ a.large{
 .abstract{
 	font-size: 70%;
 	font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
-	font-style: italic; 
+	font-style: italic;
 /*	text-align: justify;*/
 }
 
+@media print, screen and (max-width: 1160px) {
+  header, section, footer {
+    float: none;
+    position: static;
+    width: auto; }
+/*
+  header {
+    padding-right: 320px; }*/
+
+  section {
+    padding: 20px 0;
+    margin: 0 0 20px; }}
