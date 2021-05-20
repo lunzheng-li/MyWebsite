@@ -58,7 +58,7 @@ a.large{
 }
 
 .status{
-	font-size: 80%;
+	font-size: 70%;
 	font-style: italic;
 }
 
@@ -66,17 +66,18 @@ a.large{
 	font-size: 70%;
 	font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
 	font-style: italic;
-/*	text-align: justify;*/
+}
+
+#copyright{
+    font-size: 80%;
+    text-align: center;
 }
 
 @media print, screen and (max-width: 1160px) {
-  header, section, footer {
+  header, section {
     float: none;
     position: static;
     width: auto; }
-/*
-  header {
-    padding-right: 320px; }*/
 
   section {
     padding: 20px 0;
