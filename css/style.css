@@ -1,6 +1,7 @@
 body{
-	/*background-color: #E6E6FA;*/
+
     background-color: #f3f3f3;
+
 	font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
 	font-size: normal;
 	margin: auto;
@@ -52,7 +53,7 @@ a.large{
 }
 
 .journal{
-	font-size: 80%;
+	font-size: 90%;
 	text-decoration: underline;
 	font-style: italic;
 }

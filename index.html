@@ -26,25 +26,27 @@
             <address class="right">
                 Email: <a href="mailto:lunz3706@outlook.com">lunz3706@outlook.com</a>,
                 <br>
-                Shenzhen Audencia Business School,
+                SInnoPSis and Economics Research Centre,
                 <br>
-                Shenzhen University,
+                University of Cyprus,
                 <br>
-                China
+                Cyprus
             </address>
             <h2>About</h2>
-                <p>I am a research associate at Shenzhen Audencia Business School, Shenzhen University. </p>
-                <p>My primary research interest lies in the fields of behavioural and experimental economics, and I am particularly interested in topics related to bounded rationality.</p>
+                <p>I am a postdoctoral fellow at <a target="_blank" href="https://www.ucy.ac.cy/sinnopsis/">SInnoPSis</a> and Economics Research Centre, University of Cyprus. </p>
+                <p>The ERA Chair in Science and Innovation Policy & Studies (SInnoPSis) aims to bring together excellent academics from the linked scientific departments and consolidate all related research activities at the University of Cyprus.</p>
+                <!-- <p>My primary research interest lies in the fields of behavioural and experimental economics, and I am particularly interested in topics related to bounded rationality.</p> -->
                 <a target="_blank" href="pdf/Lunzheng Li.pdf" class="large">
                 Detailed CV
                 </a>
+
             <hr>
 
             <h2 >Research</h2>
                 <h4>Publications</h4>
                     <ul>
                         <li>
-                            "Anchoring in Economics: A Meta-Analysis of Studies on Willingness-To-Pay and Willingness-To- Accept." <span class="journal">Journal of Behavioral and Experimental Economics</span>, <span class="status">forthcoming</span>. 
+                            "Anchoring in Economics: A Meta-Analysis of Studies on Willingness-To-Pay and Willingness-To- Accept." <span class="journal">Journal of Behavioral and Experimental Economics</span>, 2021. 
                             <br>
                             <span class="coauthors">with Z. Maniadis and C. Sedikides</span>
                             <br>
@@ -76,13 +78,27 @@
                             <a href="javascript:toggle(3)" class="small">Abstract<span id="pubabslink_3"> (click to expand)</span></a>
                             <span id="pubabs_3" style="display:none;" class="abstract"> In a series of experiments with 375 participants, we investigate the impact of biased polls on election outcomes, when voters have the opportunity to observe and learn about the bias by playing multiple voting rounds. While in control conditions, polls are unbiased, in treatment conditions, participants view only poll results where a particular candidate’s vote share is the largest. We find that this candidate is consistently elected more often in the treatments than in the controls, because biased polls robustly distort voters’ expectations about vote shares. Remarkably, this effect holds after eighteen election rounds, out of which the first three are practice rounds, and even in a treatment where voters are explicitly informed about the bias. Our results suggest that the anchoring effects of biased polls on participants’ beliefs are stronger than potential reactance to biased information.
                             </span>
-                        </li>                  
+                            <br>
+                            <a target="_blank" href="pdf/BJLM2022_Biased polls.pdf" class="small">View PDF</a>
+                        </li>
+
+                        <li>
+                            "Childbearing Age and Gender Discrimination in Hiring Decisions: A Large-scale Field Experiment." <span class="status">Under Review.</span>
+                            <br>
+                            <span class="coauthors">with K. Li, W. Si and Z. Xu</span>
+                            <br>
+                            <a href="javascript:toggle(4)" class="small">Abstract<span id="pubabslink_4"> (click to expand)</span></a>
+                            <span id="pubabs_4" style="display:none;" class="abstract"> We conduct a large-scale field experiment in China to investigate the effect of being of childbearing age on gender discrimination in the labor market. We send 35,713 fictitious resumes to real job postings on a major Chinese online recruitment platform for jobs in four leading cities, Beĳing, Shanghai, Guangzhou, and Shenzhen, which vary in the length of maternity leave. We send applications for positions advertised in the male-dominated field of information technology (IT), the female-dominated field of accounting (ACC), and the mixed-gender field of human resources (HR). We systematically vary the age and gender of the job applicants and record callbacks for interviews. To accurately mimic the job application process in the Chinese labor market, we do not disclose the applicants’ family status. We find that women of childbearing age are subject to discrimination in the field of IT, a problem that also exists in HR and ACC, particularly in Beĳing and Shanghai. There is no obvious discrimination against women of childbearing age in Guangzhou or Shenzhen, where maternity leave is longer. In the aggregate, the evidence indicates that women of childbearing age face statistical discrimination that prevents them from obtaining equal employment opportunities.
+                            </span>
+                            <br>
+                            <a target="_blank" href="pdf/LLWX_gender2022Aug25.pdf" class="small">View PDF</a>
+                        </li>
+
+
                     </ul>   
 
                 <h4>Work in Progress</h4>
                     <ul>
-                    <li>"Paid Maternity Leave and Gender Discrimination: A Field Experiment in China."
-                    <br><span class="coauthors">with K. Li, W. Si and Z. Xu</span></li>                          
                     <li>"How Do Biases in Opinion Polls Affect Elections in Costly Voting Environments?"
                     <br><span class="coauthors">with A. Boukouras and Z. Maniadis</span></li>  
                     <li>"Mind the Nudge: an Experimental Approach to Changing Defaults under Rational Inattention."
@@ -100,6 +116,13 @@
         </div>
 
         <script>
+
+        window.onload = function() {
+            if(location.href.indexOf('#secured')==-1){
+            location.href=location.href+"#secured";
+            location.reload();
+            }
+            }
         function toggle(pid) {
             objid = "pubabs_" + pid.toString();
             linkid = "pubabslink_" + pid.toString();
