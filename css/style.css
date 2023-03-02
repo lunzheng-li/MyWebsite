@@ -67,6 +67,7 @@ a.large{
 	font-size: 70%;
 	font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
 	font-style: italic;
+	text-align: justify;
 }
 
 #copyright{
