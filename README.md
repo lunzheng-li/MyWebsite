@@ -1,6 +1,6 @@
 # MyWebsite
 This my personal academic homepage
 ## Please visit:
-[Lunzheng Li's homepage](http://lunzhengli.site)
+[Lunzheng Li's homepage](https://lunzhengli.site)
 ## Last major updated on:
-Jan 31, 2023
+Mar 02, 2023
