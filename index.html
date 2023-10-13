@@ -1,140 +1,304 @@
 <!doctype html>
-<html>
-    <head>
-        <title>Lunzheng Li</title>
-        <link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico"/>
-        <meta charset="utf-8" />
-        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="css/style.css" />
-    </head>
-    <body>
-        <div>
-        <header>
-            <h1>Lunzheng Li</h1>
-            <img src="image/photo_crop.png" alt="image/photo.jpg">
+<html lang="en" data-bs-theme="auto">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lunzheng Li</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <style>
+      img {
+        margin: 10px;
+      }
+
+      a.icon {
+  /* Of course You'll want to better target this, since you won't want all anchors to be font-size:0 */
+  font-size:0; /* Now that the font size is zero, whitespace won't show. */
+  text0decoration:none; /* If you want to add this, you can, for good measure */
+}
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+
+      .bd-mode-toggle .dropdown-menu .active .bi {
+        display: block !important;
+      }
+    </style>
+</head>
+  <body>
+
+
+    
+<header data-bs-theme="dark">
+  <div class="collapse text-bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 offset-md-1 py-4">
+            <h4>Contact</h4>
+            <a href="mailto:lunz3706@outlook.com">lunz3706@outlook.com</a>,<br>
+            <a href="mailto:lunzheng.li@ucy.ac.cy">lunzheng.li@ucy.ac.cy</a>,
             <br>
+            SInnoPSis and Economics Research Centre,
             <br>
-            <a target="_blank" href="https://scholar.google.com/citations?user=2wi7UTQAAAAJ&hl=en" class="small">Google Scholar</a>
+            University of Cyprus,
             <br>
-            <a target="_blank" href="https://www.researchgate.net/profile/Lunzheng-Li" class="small">Research Gate</a>
-            <br>
-            <a target="_blank" href="https://github.com/lunzheng-li" class="small">Github</a>
-        </header>
+            Cyprus
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
 
-        <section>
-            <address class="right">
-                Contact: <a href="mailto:lunz3706@outlook.com">lunz3706@outlook.com</a>,<br>
-                        <a href="mailto:lunzheng.li@ucy.ac.cy">lunzheng.li@ucy.ac.cy</a>,
-                <br>
-                SInnoPSis and Economics Research Centre,
-                <br>
-                University of Cyprus,
-                <br>
-                Cyprus
-            </address>
-            <h2>About</h2>
-                <p>I am a postdoctoral fellow at <a target="_blank" href="https://www.ucy.ac.cy/sinnopsis/">SInnoPSis</a> and Economics Research Centre, University of Cyprus. </p>
-                <p>The ERA Chair in Science and Innovation Policy & Studies (SInnoPSis) aims to bring together excellent academics from the linked scientific departments and consolidate all related research activities at the University of Cyprus.</p>
-                <!-- <p>My primary research interest lies in the fields of behavioural and experimental economics, and I am particularly interested in topics related to bounded rationality.</p> -->
-                <a target="_blank" href="pdf/Lunzheng Li.pdf" class="large">
-                Detailed CV
-                </a>
+<main>
 
-            <hr>
-
-            <h2 >Research</h2>
-                <h4>Publications</h4>
-                    <ul>
-                        <li>
-                            "Anchoring in Economics: A Meta-Analysis of Studies on Willingness-To-Pay and Willingness-To- Accept." <span class="journal">Journal of Behavioral and Experimental Economics</span>, 2021. 
-                            <br>
-                            <span class="coauthors">with Z. Maniadis and C. Sedikides</span>
-                            <br>
-                            <a href="javascript:toggle(1)" class="small">Abstract<span id="pubabslink_1"> (click to expand)</span></a>
-                            <span id="pubabs_1" style="display:none;" class="abstract"> Anchoring is considered one of the most robust psychological phenomena in judgment and decision-making. Earlier studies produced strong and consistent evidence that anchoring is relevant for the elicitation of economic preferences, but subsequent studies found weaker and less consistent effects. We examined the economic significance of numerical anchoring by conducting a meta-analysis of 53 studies. We used the Pearson correlation coefficient between the anchor number and target response (in our case, Willingness-to-Pay and Willingness-to-Accept) as the primary effect size. Both fixed-effects and random effects models pointed to a moderate overall effect, smaller than the effects reported in early studies. Given some well-known limitations of our meta-analytic methodology, these results should be viewed with caution and the effect size as an upper bound. Also, metaregression analysis indicates that non-random anchors and non-laboratory experiments were associated with higher anchoring effects, whereas selling tasks and anchors incompatible with the evaluated item were associated with lower (but often non-significant) anchoring effects. The use of financial incentives did not have a discernible effect.
-                            </span>
-                            <br>
-                            <a target="_blank" href="pdf/LMS2020.pdf" class="small">Working Paper</a><br>
-                        </li>
-
-                        <li>
-                            "Can Biased Polls Distort Electoral Results? Evidence from the Lab." <span class="journal">European Journal of Political Economy</span>, accepted.
-                            <br>
-                            <span class="coauthors">with A. Boukouras, W. Jennings and Z. Maniadis</span>
-                            <br>
-                            <a href="javascript:toggle(3)" class="small">Abstract<span id="pubabslink_3"> (click to expand)</span></a>
-                            <span id="pubabs_3" style="display:none;" class="abstract"> We introduce a new methodological approach for studying the effect of biased polls on election outcomes and apply it to a set of new experiments with 375 participants. Voters may observe and learn about the bias by playing multiple voting rounds. While in control conditions, polls are unbiased, in treatment conditions, participants view only poll results where a particular candidate’s vote share is the largest. This candidate is consistently elected more often in the treatments than in the controls, because biased polls robustly distort voters’ expectations about vote shares. This effect holds after eighteen election rounds, out of which the first three are practice rounds, but somewhat more weakly in our main treatment where voters are explicitly informed about the bias.
-                            </span>
-                            <br>
-                            <a target="_blank" href="https://doi.org/10.1016/j.ejpoleco.2023.102383" class="small">Open Access</a><br>
-                            <a target="_blank" href="pdf/BJLM2022_Biased polls_Appendix.pdf" class="small">Online Appendix</a><br>
-                            <a target="_blank" href="https://github.com/lunzheng-li/biased-poll-replication-package" class="small">Replication Package</a><br>
-                        </li>
-                    </ul>
-
-                <h4>Working Papers</h4>
-                    <ul>
-                        <li>
-                            "The Account of Instability of Risk Preference: Salience Theory versus Cumulative Prospect Theory." 
-                            <br>
-                            <a href="javascript:toggle(2)" class="small">Abstract<span id="pubabslink_2"> (click to expand)</span></a>
-                            <span id="pubabs_2" style="display:none;" class="abstract"> Salience theory is a powerful alternative to prospect theory in accounting for paradoxes of choice under risk. In risk choice settings where the majority of subjects exhibits unstable risk attitudes, we experimentally investigate the descriptive and predictive power of salience theory, and compare it with cumulative prospect theory. We find that both theories unsurprisingly outperform expected utility theory, which does not account for the instability of risk preferences and cumulative prospect theory outperforms salience theory by an insignificant margin. We attribute this small gap to the unsophisticated specification of the salience function and the substantial heterogeneity of the local thinking parameter. Salience theory captures important features of unstable risk preferences, yet further work on the functional representation of the theory is necessary to make it as applicable as cumulative prospect theory.
-                            </span>
-                            <br>
-                            <a target="_blank" href="pdf/Li2020.pdf" class="small">Working Paper</a><br>
-                        </li>
-
-
-
-                        <li>
-                            "Childbearing Age and Gender Discrimination in Hiring Decisions: A Large-scale Field Experiment." <span class="status">Under Review.</span>
-                            <br>
-                            <span class="coauthors">with K. Li, W. Si and Z. Xu</span>
-                            <br>
-                            <a href="javascript:toggle(4)" class="small">Abstract<span id="pubabslink_4"> (click to expand)</span></a>
-                            <span id="pubabs_4" style="display:none;" class="abstract"> Gender stereotypes and discrimination within organizations often hinder women's labor market participation, particularly during their childbearing years. To test this hypothesis, we conduct a large-scale field experiment in China to investigate the effect of women's childbearing age on labor market discrimination. We send 35,713 fictitious resumes to real job postings on a major Chinese online recruitment platform for jobs in four leading cities: Beijing, Shanghai, Guangzhou, and Shenzhen. We submit job applications to organizations in the male-dominated field of information technology, the female-dominated field of accounting, and the mixed-gender field of human resources. Generally, the evidence indicates that women of childbearing age experience statistical discrimination, regardless of their actual motherhood status. However, the shadow mommy effect is heterogeneous across different fields of occupations, firm ownership types, and cities. Our findings indicate that employers' concerns about potential costs arising from gendered parental responsibility disparities are the main mediators of the shadow mommy effect. Nonetheless, fostering inclusivity for women, adopting robust ESG practices, and offering additional childcare support can mitigate this discrimination against women of childbearing age. The results also suggest a negative relationship between labor market discrimination against women of childbearing age and the fertility rate in urban areas. This study provides insights for decision-makers in both public and private organizations, laying the groundwork for potential policy development to address gender inequality in the labor market and related challenges in similar societies.
-                            </span>
-                            <br>
-                            <a target="_blank" href="https://deliverypdf.ssrn.com/delivery.php?ID=739098086122110016078121015102112011123049028029039027085071074111099111126097114094055034030123018059015119076107071106093118038013054059039028113097064089006125092022035014116086027098102024013085024090103103065103102081031121027120015109086002022085&EXT=pdf&INDEX=TRUE" class="small">Working Paper</a><br>
-                        </li>
-
-
-                    </ul>   
-
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <h1 class="fw-light">Lunzheng Li</h1>
+        <p class="lead text-body-secondary">I am a postdoctoral fellow at <a target="_blank" href="https://www.ucy.ac.cy/sinnopsis/">SInnoPSis</a> and Economics Research Centre, University of Cyprus. 
             <br><br>
-            <hr>
-            <p id="copyright">
-                Copyright &copy; <script>document.write(new Date().getFullYear())</script> <em>Lunzheng Li.</em> All Rights Reserved
-            </p>
-        </section>
+        The ERA Chair in Science and Innovation Policy & Studies (SInnoPSis) aims to bring together excellent academics from the linked scientific departments and consolidate all related research activities at the University of Cyprus.
+        </p>
+        <p>
+          <a target="_blank" href="pdf/Lunzheng Li.pdf" class="btn btn-primary my-2">Curriculum Vitae</a>
+        </p>
+        <p>
+            <a class="icon" href="https://scholar.google.com/citations?user=2wi7UTQAAAAJ&hl=en">
+                <img src="google-scholar-svgrepo-com.svg" alt="google scholar" style="width: 32px; height: 32px">
+            </a>
+            <a class="icon" href="https://github.com/lunzheng-li">
+                <img src="github-octocat-svgrepo-com.svg" alt="github" style="width: 32px; height: 32px">
+            </a>
+            <a class="icon" href="https://www.researchgate.net/profile/Lunzheng-Li">
+                <img src="researchgate-svgrepo-com.svg" alt="research gate" style="width: 32px; height: 32px">
+            </a>
+        </p>
+      </div>
+    </div>
+  </section>
 
+  <div class="album py-5 bg-body-tertiary">
+    <div class="container">
 
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <script>
+        <div class="col">
+          <div class="card shadow-sm">
 
-        // window.onload = function() {
-        //     if(location.href.indexOf('#secured')==-1){
-        //     location.href=location.href+"#secured";
-        //     location.reload();
-        //     }
-        //     }
-        function toggle(pid) {
-            objid = "pubabs_" + pid.toString();
-            linkid = "pubabslink_" + pid.toString();
-            absobj = document.getElementById(objid);
-            linkobj = document.getElementById(linkid);
-            if (absobj.style.display === "none") {
-                absobj.style.display = "inline";
-                linkobj.style.display = "none";
-            }
-            else {
-                absobj.style.display = "none";
-                linkobj.style.display = "inline";
-            }
-        }
-        </script>
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="text-body-secondary py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="#">Back to top</a>
+    </p>
+    <p class="mb-1"> Copyright &copy; <script>document.write(new Date().getFullYear())</script> <em>Lunzheng Li.</em> All Rights Reserved
+    </p>
+  </div>
+</footer>
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
     </body>
-    
 </html>
+
