@@ -10,6 +10,28 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <style>
+      .coauthors{
+  font-size: 70%;
+  font-style: italic;
+}
+
+.journal{
+  font-size: 90%;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.status{
+  font-size: 70%;
+  font-style: italic;
+}
+
+.abstract{
+  font-size: 70%;
+  font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+  font-style: italic;
+  text-align: justify;
+}
       img.icon {
         margin: 10px;
       }
@@ -156,15 +178,21 @@
   <div class="album py-5 bg-body-tertiary">
     <div class="container">
 
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="row row-cols-md-1">
         <div class="col">
           <div class="card shadow-sm">
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">
+                "Anchoring in Economics: A Meta-Analysis of Studies on Willingness-To-Pay and Willingness-To- Accept." <span class="journal">Journal of Behavioral and Experimental Economics</span>, 2021. 
+                <br>
+                <span class="coauthors">with Z. Maniadis and C. Sedikides</span>
+                <br>
+                <span id="pubabs_1" class="abstract" style="display:none;"> Anchoring is considered one of the most robust psychological phenomena in judgment and decision-making. Earlier studies produced strong and consistent evidence that anchoring is relevant for the elicitation of economic preferences, but subsequent studies found weaker and less consistent effects. We examined the economic significance of numerical anchoring by conducting a meta-analysis of 53 studies. We used the Pearson correlation coefficient between the anchor number and target response (in our case, Willingness-to-Pay and Willingness-to-Accept) as the primary effect size. Both fixed-effects and random effects models pointed to a moderate overall effect, smaller than the effects reported in early studies. Given some well-known limitations of our meta-analytic methodology, these results should be viewed with caution and the effect size as an upper bound. Also, metaregression analysis indicates that non-random anchors and non-laboratory experiments were associated with higher anchoring effects, whereas selling tasks and anchors incompatible with the evaluated item were associated with lower (but often non-significant) anchoring effects. The use of financial incentives did not have a discernible effect.
+                </span>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                   <a href="javascript:toggle(1)"><button type="button" class="btn btn-sm btn-outline-secondary">Abstract</button></a>
+                  <a target="_blank" href="pdf/LMS2020.pdf" class="small"><button type="button" class="btn btn-sm btn-outline-secondary">Working Paper</button></a>
                 </div>
               </div>
             </div>
@@ -185,6 +213,19 @@
     </p>
   </div>
 </footer>
+
+<script>
+        function toggle(pid) {
+            objid = "pubabs_" + pid.toString();
+            absobj = document.getElementById(objid);
+            if (absobj.style.display === "none") {
+                absobj.style.display = "inline";
+            }
+            else {
+                absobj.style.display = "none";
+            }
+        }
+</script>
 
     </body>
 </html>
