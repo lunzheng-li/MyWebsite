@@ -4,115 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Lunzheng Li</title>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
-    <style>
-      .coauthors{
-  font-size: 70%;
-  font-style: italic;
-}
-
-.journal{
-  font-size: 90%;
-  text-decoration: underline;
-  font-style: italic;
-}
-
-.status{
-  font-size: 70%;
-  font-style: italic;
-}
-
-.abstract{
-  font-size: 70%;
-  font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
-  font-style: italic;
-  text-align: justify;
-}
-      img.icon {
-        margin: 10px;
-      }
-
-      img.photo {
-  border-color: black;
-  border-width: 1px;
-  border-style: solid;
-  padding: 1px;
-    width: 200px;
-    margin: 10px;
-}
-
-      a.icon {
-  /* Of course You'll want to better target this, since you won't want all anchors to be font-size:0 */
-  font-size:0; /* Now that the font size is zero, whitespace won't show. */
-  text0decoration:none; /* If you want to add this, you can, for good measure */
-}
-      .b-example-divider {
-        width: 100%;
-        height: 3rem;
-        background-color: rgba(0, 0, 0, .1);
-        border: solid rgba(0, 0, 0, .15);
-        border-width: 1px 0;
-        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-      }
-
-      .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
-
-      .bi {
-        vertical-align: -.125em;
-        fill: currentColor;
-      }
-
-      .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
-      }
-
-      .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
-
-      .btn-bd-primary {
-        --bd-violet-bg: #712cf9;
-        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
-
-        --bs-btn-font-weight: 600;
-        --bs-btn-color: var(--bs-white);
-        --bs-btn-bg: var(--bd-violet-bg);
-        --bs-btn-border-color: var(--bd-violet-bg);
-        --bs-btn-hover-color: var(--bs-white);
-        --bs-btn-hover-bg: #6528e0;
-        --bs-btn-hover-border-color: #6528e0;
-        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-        --bs-btn-active-color: var(--bs-btn-hover-color);
-        --bs-btn-active-bg: #5a23c8;
-        --bs-btn-active-border-color: #5a23c8;
-      }
-
-      .bd-mode-toggle {
-        z-index: 1500;
-      }
-
-      .bd-mode-toggle .dropdown-menu .active .bi {
-        display: block !important;
-      }
-    </style>
+    <link rel="stylesheet" href="css/style.css" />
 </head>
   <body>
 
@@ -162,13 +55,13 @@
         </p>
         <div>
             <a target="_blank" class="icon" href="https://scholar.google.com/citations?user=2wi7UTQAAAAJ&hl=en">
-                <img class="icon" src="google-scholar-svgrepo-com.svg" alt="google scholar" style="width: 32px; height: 32px">
+                <img class="icon" src="image/google-scholar-svgrepo-com.svg" alt="google scholar" style="width: 32px; height: 32px">
             </a>
             <a target="_blank" class="icon" href="https://github.com/lunzheng-li">
-                <img class="icon" src="github-octocat-svgrepo-com.svg" alt="github" style="width: 32px; height: 32px">
+                <img class="icon" src="image/github-octocat-svgrepo-com.svg" alt="github" style="width: 32px; height: 32px">
             </a>
             <a target="_blank" class="icon" href="https://www.researchgate.net/profile/Lunzheng-Li">
-                <img class="icon" src="researchgate-svgrepo-com.svg" alt="research gate" style="width: 32px; height: 32px">
+                <img class="icon" src="image/researchgate-svgrepo-com.svg" alt="research gate" style="width: 32px; height: 32px">
             </a>
         </div>
       </div>
@@ -263,7 +156,7 @@
 
 </main>
 
-<footer class="text-body-secondary py-5">
+<footer class="text-body-secondary py-3 image/">
   <div class="container">
     <p class="float-end mb-1">
       <a href="#">Back to top</a>
@@ -273,6 +166,7 @@
   </div>
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 <script>
         function toggle(pid) {
             objid = "pubabs_" + pid.toString();
