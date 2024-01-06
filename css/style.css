@@ -28,11 +28,11 @@ img.icon {
 }
 
 img.photo {
-    border-color: black;
+/*    border-color: black;
     border-width: 1px;
-    border-style: solid;
+    border-style: solid;*/
     padding: 1px;
-    width: 200px;
+    width: 280px;
     margin: 10px;
 }
 
