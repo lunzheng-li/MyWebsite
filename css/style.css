@@ -6,7 +6,7 @@
 
 .journal{
     font-size: 100%;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     font-style: italic;
     font-weight: bold;
 }
@@ -39,7 +39,7 @@ img.photo {
 
 a.icon {
     font-size:0; 
-    text0decoration:none; 
+    text-decoration:none; 
 }
 .b-example-divider {
     width: 100%;
