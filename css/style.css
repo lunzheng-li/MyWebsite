@@ -103,3 +103,10 @@ a.icon {
 .bd-mode-toggle .dropdown-menu .active .bi {
     display: block !important;
 }
+
+.btn i.bi {
+    vertical-align: baseline;
+    margin-right: 0.1rem;
+    position: relative;
+    top: 0px; /* Adjust this value as needed */
+}
