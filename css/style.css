@@ -1,7 +1,8 @@
 .coauthors{
-    font-size: 85%;
+    /* font-size: 85%; */
     font-style: italic;
     /* font-weight: bold; */
+    color: #6c757d;
 }
 
 .journal{
@@ -9,13 +10,16 @@
     /* text-decoration: underline; */
     font-style: italic;
     font-weight: bold;
+    color: #3498db;
 }
 
 .status{
-    font-size: 100%;
-    font-style: italic;
+    /* font-size: 100%; */
+    /* font-style: italic; */
 /*    text-decoration: underline;*/
 /*    font-weight: bold;*/
+    color: #e74c3c;
+    font-size: 0.8rem;
 }
 
 .abstract{
@@ -79,21 +83,20 @@ a.icon {
     -webkit-overflow-scrolling: touch;
 }
 
-.btn-bd-primary {
-    --bd-violet-bg: #712cf9;
-    --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
 
-    --bs-btn-font-weight: 600;
-    --bs-btn-color: var(--bs-white);
-    --bs-btn-bg: var(--bd-violet-bg);
-    --bs-btn-border-color: var(--bd-violet-bg);
-    --bs-btn-hover-color: var(--bs-white);
-    --bs-btn-hover-bg: #6528e0;
-    --bs-btn-hover-border-color: #6528e0;
-    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-    --bs-btn-active-color: var(--bs-btn-hover-color);
-    --bs-btn-active-bg: #5a23c8;
-    --bs-btn-active-border-color: #5a23c8;
+.btn-outline-secondary {
+    --bs-btn-color: #3498db;
+    --bs-btn-border-color: #3498db;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #3498db;
+    --bs-btn-hover-border-color: #3498db;
+    --bs-btn-check-color: #fff;
+    --bs-btn-check-bg: #3498db;
+    --bs-btn-check-border-color: #3498db;
+    --bs-btn-focus-shadow-rgb: 52, 152, 219;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #2980b9;
+    --bs-btn-active-border-color: #2980b9;
 }
 
 .bd-mode-toggle {
