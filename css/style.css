@@ -15,10 +15,11 @@
 
 .status{
     /* font-size: 100%; */
-    /* font-style: italic; */
+    font-style: italic;
 /*    text-decoration: underline;*/
 /*    font-weight: bold;*/
-    color: #e74c3c;
+    color: #3e9cbf;
+    /* color: #3498db; */
     font-size: 0.8rem;
 }
 
