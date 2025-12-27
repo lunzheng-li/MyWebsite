@@ -1,0 +1,22 @@
+/* Center home page title */
+.first-entry .entry-header h1 {
+    text-align: center;
+}
+
+/* Center home page content */
+.first-entry .entry-content {
+    text-align: center;
+}
+
+/* Center the photo */
+.first-entry .entry-content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Center social icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
