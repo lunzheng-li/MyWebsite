@@ -24,3 +24,5 @@ Thumbs.db
 # Temporary files
 *.log
 *.tmpold_site_archive/
+/public/
+/.hugo_build.lock
