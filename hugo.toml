@@ -125,16 +125,10 @@ url = "/"
 weight = 10
 
 [[menu.main]]
-identifier = "publications"
-name = "Publications"
-url = "/publications/"
+identifier = "research"
+name = "Research"
+url = "/research/"
 weight = 20
-
-[[menu.main]]
-identifier = "working-papers"
-name = "Working Papers"
-url = "/working-papers/"
-weight = 30
 
 
 
