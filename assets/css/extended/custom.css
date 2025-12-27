@@ -1,3 +1,41 @@
+/* Local Fira Code font */
+@font-face {
+    font-family: 'Fira Code';
+    src: url('/fonts/FiraCode-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url('/fonts/FiraCode-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url('/fonts/FiraCode-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url('/fonts/FiraCode-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Apply Fira Code to the site */
+body {
+    font-family: 'Fira Code', monospace;
+}
+
 /* Center home page title */
 .first-entry .entry-header h1 {
     text-align: center;
@@ -19,4 +57,30 @@
 .social-icons {
     display: flex;
     justify-content: center;
+}
+
+/* CV download buttons */
+.cv-button {
+    display: inline-block;
+    background-color: #4a90d9;
+    color: white !important;
+    padding: 0.5rem 1rem;
+    margin: 0.3rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.cv-button:hover {
+    background-color: #3a7bc8;
+}
+
+/* Dark mode button adjustment */
+.dark .cv-button {
+    background-color: #5a9fe9;
+}
+
+.dark .cv-button:hover {
+    background-color: #4a8fd9;
 }
