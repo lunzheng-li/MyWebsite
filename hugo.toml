@@ -142,6 +142,7 @@ name = "Contact"
 url = "/contact/"
 weight = 50
 
+
 # Taxonomy configuration
 [taxonomies]
 tag = "tags"
