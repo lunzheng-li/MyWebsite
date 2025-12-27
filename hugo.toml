@@ -130,6 +130,12 @@ name = "Research"
 url = "/research/"
 weight = 20
 
+[[menu.main]]
+identifier = "teaching"
+name = "Teaching"
+url = "/teaching/"
+weight = 25
+
 
 
 # Taxonomy configuration
