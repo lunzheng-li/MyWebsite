@@ -136,11 +136,6 @@ name = "Working Papers"
 url = "/working-papers/"
 weight = 30
 
-[[menu.main]]
-identifier = "contact"
-name = "Contact"
-url = "/contact/"
-weight = 50
 
 
 # Taxonomy configuration

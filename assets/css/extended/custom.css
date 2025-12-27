@@ -110,3 +110,14 @@ body {
 .search-btn svg {
     vertical-align: middle;
 }
+
+/* Contact button styling */
+.contact-btn {
+    margin-left: 8px;
+    cursor: pointer;
+    color: var(--primary);
+}
+
+.contact-btn svg {
+    vertical-align: middle;
+}
