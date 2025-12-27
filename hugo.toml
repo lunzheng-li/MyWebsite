@@ -1,0 +1,169 @@
+baseURL = 'https://lunzhengli.site/'
+languageCode = 'en-us'
+title = 'Lunzheng Li'
+theme = 'PaperMod'
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+pygmentsUseClasses = true
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+title = "Lunzheng Li"
+description = "Academic website of Lunzheng Li - Lecturer at Business School, Xiangtan University. Research in Behavioral Economics, Experimental Economics, and Economics of Science."
+keywords = ["Lunzheng Li", "李论正", "Economics", "Behavioral Economics", "Experimental Economics", "Academic", "Research", "Xiangtan University"]
+author = "Lunzheng Li"
+DateFormat = "January 2, 2006"
+
+# Theme behavior
+defaultTheme = "auto" # auto, dark, light
+disableThemeToggle = false
+
+# Page features
+ShowReadingTime = false
+ShowShareButtons = false
+ShowPostNavLinks = false
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = false
+ShowRssButtonInSectionTermList = false
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
+
+# Home page configuration
+[params.homeInfoParams]
+Title = "Lunzheng Li (李论正)"
+Content = """
+I am a Lecturer at the **Business School, Xiangtan University**, China.
+
+I received my PhD in Economics from the **University of Southampton** in 2020. Before joining Xiangtan University, I was a Postdoctoral Fellow at the [SInnoPSis](https://www.ucy.ac.cy/sinnopsis/) and the Economics Research Centre at the **University of Cyprus** and previously a Research Associate at **Shenzhen University**.
+
+**Research Interests:** *Behavioural Economics, Experimental Economics, Economics of Science*
+"""
+
+# Profile mode (alternative to homeInfoParams)
+[params.profileMode]
+enabled = false # Set to true if you prefer profile mode
+title = "Lunzheng Li"
+subtitle = "Lecturer in Economics"
+imageUrl = "/image/Photo1_zoom_in.jpg"
+imageWidth = 200
+imageHeight = 200
+imageTitle = "Lunzheng Li"
+
+# Social icons
+[[params.socialIcons]]
+name = "email"
+url = "mailto:lunz3706@outlook.com"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:lunz4543@gmail.com"
+
+[[params.socialIcons]]
+name = "googlescholar"
+url = "https://scholar.google.com/citations?user=2wi7UTQAAAAJ&hl=en"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/lunzheng-li"
+
+[[params.socialIcons]]
+name = "researchgate"
+url = "https://www.researchgate.net/profile/Lunzheng-Li"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/lunzheng-li-economics"
+
+# Assets (favicons, etc.)
+[params.assets]
+favicon = "/image/favicon.ico"
+favicon16x16 = "/image/favicon-16x16.png"
+favicon32x32 = "/image/favicon-32x32.png"
+apple_touch_icon = "/image/apple-touch-icon.png"
+
+# Cover image
+[params.cover]
+hidden = true
+hiddenInList = true
+hiddenInSingle = true
+
+# Edit post link
+[params.editPost]
+URL = ""
+Text = ""
+appendFilePath = false
+
+# Analytics (uncomment and add your ID when ready)
+# [services.googleAnalytics]
+# ID = 'G-XXXXXXXXXX'
+
+# Menu configuration
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 10
+
+[[menu.main]]
+identifier = "publications"
+name = "Publications"
+url = "/publications/"
+weight = 20
+
+[[menu.main]]
+identifier = "working-papers"
+name = "Working Papers"
+url = "/working-papers/"
+weight = 30
+
+[[menu.main]]
+identifier = "cv"
+name = "CV"
+url = "/cv/"
+weight = 40
+
+[[menu.main]]
+identifier = "contact"
+name = "Contact"
+url = "/contact/"
+weight = 50
+
+# Taxonomy configuration
+[taxonomies]
+tag = "tags"
+category = "categories"
+
+# Markup configuration
+[markup.highlight]
+noClasses = false
+codeFences = true
+guessSyntax = true
+lineNos = false
+lineNumbersInTable = false
+style = 'monokai'
+
+[markup.goldmark.renderer]
+unsafe = true # Allow HTML in markdown
+
+# Output formats
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+# Privacy configuration
+[privacy.youtube]
+privacyEnhanced = true
