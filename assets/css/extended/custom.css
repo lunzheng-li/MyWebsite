@@ -121,3 +121,28 @@ body {
 .contact-btn svg {
     vertical-align: middle;
 }
+
+/* Paper links styling */
+.paper-links a {
+    cursor: pointer;
+}
+
+.paper-links .abstract-toggle {
+    cursor: pointer;
+}
+
+.paper-links .abstract-toggle:hover {
+    text-decoration: underline;
+}
+
+.abstract-content {
+    display: none;
+    margin-top: 0.5em;
+    padding: 0.5em;
+    background: var(--code-bg);
+    border-radius: 4px;
+}
+
+.abstract-content.show {
+    display: block;
+}
