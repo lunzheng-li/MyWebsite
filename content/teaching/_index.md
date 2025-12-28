@@ -4,7 +4,9 @@ url: "/teaching/"
 layout: "single"
 ---
 
-## University of Cyprus
+### University of Cyprus
+
+---
 
 **Instructor** (2024)
 ONISILOS Training Session: Meta-analysis and Meta-data
@@ -14,7 +16,9 @@ ECON365: Behavioural & Experimental Economics
 
 ---
 
-## University of Southampton
+### University of Southampton
+
+---
 
 **Guest Lecturer** (2021) 
 ECON6053: Experimental Economics - An oTree Crashed Course
