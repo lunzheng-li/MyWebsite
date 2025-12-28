@@ -131,6 +131,11 @@ body {
     border: 1px solid var(--border);
 }
 
+.post-content .paper-card > p:last-child,
+.post-content .paper-card > p:only-child {
+    margin-bottom: 0;
+}
+
 .dark .paper-card {
     background: var(--code-bg);
 }
