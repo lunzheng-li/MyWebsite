@@ -77,7 +77,7 @@ body {
 /* CV download buttons */
 .cv-button {
     display: inline-block;
-    background-color: #4a90d9;
+    background-color: #8a9fd4;
     color: white !important;
     padding: 0.5rem 1rem;
     margin: 0.3rem;
@@ -88,16 +88,16 @@ body {
 }
 
 .cv-button:hover {
-    background-color: #3a7bc8;
+    background-color: #7a8fc4;
 }
 
 /* Dark mode button adjustment */
 .dark .cv-button {
-    background-color: #5a9fe9;
+    background-color: #9aafde;
 }
 
 .dark .cv-button:hover {
-    background-color: #4a8fd9;
+    background-color: #8a9fd4;
 }
 
 /* Search button styling */
@@ -155,21 +155,33 @@ body {
     gap: 0.3rem;
     padding: 0.4rem 0.8rem;
     border-radius: 6px;
-    background-color: var(--code-bg);
-    color: var(--primary);
+    background-color: #8a9fd4;
+    color: white;
     text-decoration: none;
     font-size: 0.9rem;
     cursor: pointer;
     transition: all 0.2s ease;
-    border: 1px solid var(--border);
+    border: 1px solid #8a9fd4;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
 }
 
 .paper-links a:hover,
 .paper-links .abstract-toggle:hover {
-    background-color: var(--tertiary);
+    background-color: #7a8fc4;
+    color: white;
     transform: translateY(-1px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+}
+
+.dark .paper-links a,
+.dark .paper-links .abstract-toggle {
+    background-color: #9aafde;
+    border-color: #9aafde;
+}
+
+.dark .paper-links a:hover,
+.dark .paper-links .abstract-toggle:hover {
+    background-color: #8a9fd4;
 }
 
 .paper-links a:active,
@@ -183,13 +195,17 @@ body {
     padding: 1rem;
     background: var(--code-bg);
     border-radius: 6px;
-    border-left: 3px solid var(--primary);
+    border-left: 3px solid #8a9fd4;
     line-height: 1.6;
     font-size: 0.8em;
 }
 
 .abstract-content.show {
     display: block;
+}
+
+.dark .abstract-content {
+    border-left-color: #9aafde;
 }
 
 /* Paper status (e.g., Under review, R&R) */
@@ -245,7 +261,11 @@ body {
 }
 
 .contact-item:hover {
-    border-color: var(--primary);
+    border-color: #8a9fd4;
+}
+
+.dark .contact-item:hover {
+    border-color: #9aafde;
 }
 
 .contact-icon {
