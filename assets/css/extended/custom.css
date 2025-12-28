@@ -172,3 +172,20 @@ body {
 .abstract-content.show {
     display: block;
 }
+
+/* Paper status (e.g., Under review, R&R) */
+.paper-status {
+    font-size: 0.85em;
+    font-variant: small-caps;
+    color: var(--secondary);
+}
+
+/* Paper note (e.g., additional publication info) */
+.paper-note {
+    font-size: 0.8em;
+    color: var(--secondary);
+    background: var(--code-bg);
+    padding: 0.2em 0.5em;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+}
