@@ -26,3 +26,6 @@ Thumbs.db
 *.tmpold_site_archive/
 /public/
 /.hugo_build.lock
+/public/
+/resources/
+/.hugo_build.lock
