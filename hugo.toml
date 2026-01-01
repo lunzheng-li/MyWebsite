@@ -2,7 +2,7 @@ baseURL = 'https://lunzhengli.site/'
 languageCode = 'en-us'
 title = ''
 theme = 'PaperMod'
-copyright = '© 2025 Lunzheng Li. All rights reserved.'
+copyright = '© 2026 Lunzheng Li. All rights reserved.'
 
 enableRobotsTXT = true
 buildDrafts = false
@@ -49,9 +49,11 @@ tocopen = false
 Title = "Lunzheng Li (李论正)"
 Content = """
 <div style="text-align: center;">
-<img src="/image/Photo1_zoom_in.jpg" alt="Lunzheng Li" style="max-width: 210px; border-radius: 8px; margin-bottom: 1.5em;">
+<img src="/image/Photo1_zoom_in.jpg" alt="Lunzheng Li" style="max-width: 250px; border-radius: 8px; margin-bottom: 1.5em;">
 
 I am a Lecturer at the Business School, **Xiangtan University**, China.
+
+<br>
 
 I received my PhD in Economics from the **University of Southampton** in 2020. Before joining Xiangtan University, I was a Postdoctoral Fellow at the [SInnoPSis](https://www.ucy.ac.cy/sinnopsis/) and the Economics Research Centre at the **University of Cyprus** and previously a Research Associate at **Shenzhen University**.
 
