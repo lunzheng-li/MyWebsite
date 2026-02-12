@@ -99,8 +99,6 @@ url = "https://www.linkedin.com/in/lunzheng-li-economics"
 # Assets (favicons, etc.)
 [params.assets]
 favicon = "/image/favicon.ico"
-favicon16x16 = "/image/favicon-16x16.png"
-favicon32x32 = "/image/favicon-32x32.png"
 apple_touch_icon = "/image/apple-touch-icon.png"
 
 # Cover image
