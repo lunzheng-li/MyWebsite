@@ -47,11 +47,11 @@ The Account of Instability of Risk Preference: Salience Theory versus Cumulative
 
 <div class="paper-card">
 
-Childbearing Age and the Shadow Mommy Effect on Hiring: A Large-Scale Field Experiment<br>
+The Shadow Mommy Effect in Hiring: Evidence from Field and Vignette Experiments<br>
 <span style="color: var(--secondary);">with K. Li, W. Si and Z. Xu</span><br>
-<span class="paper-status">Under major revision</span><br>
+<span class="paper-status">Under review, Journal of Human Resources</span><br>
 <span class="paper-links"><span class="abstract-toggle" onclick="toggleAbstract(this)">📋 Abstract</span><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4199754" target="_blank">📝 Working Paper</a></span>
-<div class="abstract-content">This study examines the shadow mommy effect—discrimination against women of prime childbearing age in the labor market. We sent 35,713 fabricated CVs to genuine job advertisements in the IT, accounting, and HR sectors across four major cities in China, accurately simulating real job-seeking conditions. Our findings reveal that women of prime childbearing age face disadvantages in the job search process, even when their maternal and marital status is not disclosed. The impact of this effect varies by occupation, firm ownership, and location. Consistent with intersectionality theory, our results suggest that employers' decision biases are largely shaped by the intersection of gender and age perceptions. Social expectations regarding motherhood heighten concerns about the costs associated with gendered parental responsibilities, thereby driving the shadow mommy effect.</div>
+<div class="abstract-content">This paper investigates statistical discrimination against women of prime childbearing age in an online labor market where family status is unobserved. Using a correspondence experiment with 35,713 fictitious applications across China's four first-tier cities, we document a "shadow mommy" penalty that follows an inverted U-shaped pattern. While 24-year-old women enjoy a hiring premium, this advantage is reversed at age 29, where women face a penalty that reduces their callback rate by over 50% relative to men. This disadvantage attenuates for 34-year-old candidates, confirming that the bias targets the specific window of high fertility risk. To isolate the mechanism, we conducted a complementary vignette experiment (N=1,800) that holds productivity constant while varying the salience of maternity costs. We find that explicit maternity risk drives the female hiring share down from 0.57 to 0.15. Heterogeneity analysis validates this cost-based channel: the penalty disappears in state-owned and foreign-invested enterprises and is mitigated in cities with lower labor costs and stronger grandparental childcare support. The results demonstrate that employers actively price the expected costs of maternity leave into hiring, even when applicants disclose no family information.</div>
 
 </div>
 
@@ -69,7 +69,7 @@ Reciprocity in Peer Assessments<br>
 
 A Replication and Robustness Check of the Centipede Game<br>
 <span style="color: var(--secondary);">with Z. Maniadis</span><br>
-<span class="paper-status">Under review, European Economic Review</span><br>
+<span class="paper-status">Revise and resubmit, European Economic Review</span><br>
 <span class="paper-links"><span class="abstract-toggle" onclick="toggleAbstract(this)">📋 Abstract</span><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5738502" target="_blank">📝 Working Paper</a></span>
 <div class="abstract-content">We replicate the classical centipede game of McKelvey and Palfrey (1992) and examine the effect of feedback about aggregate behavior in each round. Our subjects exhibit Nash behavior more often than subjects in the original experiment, and aggregate feedback causes even stronger convergence to Nash equilibrium. However, after a slight modification to the game's payoff structure, the treatment effects of aggregate information often shift in the opposite direction.</div>
 
