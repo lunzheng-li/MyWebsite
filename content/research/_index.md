@@ -74,3 +74,13 @@ A Replication and Robustness Check of the Centipede Game<br>
 <div class="abstract-content">We replicate the classical centipede game of McKelvey and Palfrey (1992) and examine the effect of feedback about aggregate behavior in each round. Our subjects exhibit Nash behavior more often than subjects in the original experiment, and aggregate feedback causes even stronger convergence to Nash equilibrium. However, after a slight modification to the game's payoff structure, the treatment effects of aggregate information often shift in the opposite direction.</div>
 
 </div>
+
+<div class="paper-card">
+
+Leading by Identification: How Board Chairs' Senior Roles in Industry Associations Shape Environmental Management Practices in Chinese Firms<br>
+<span style="color: var(--secondary);">with H. Wang</span><br>
+<span class="paper-status">Under review, Journal of Business Ethics</span><br>
+<span class="paper-links"><span class="abstract-toggle" onclick="toggleAbstract(this)">📋 Abstract</span><span style="display: inline-flex; align-items: center; gap: 0.3rem; padding: 0.4rem 0.8rem; border-radius: 6px; background-color: #b8b8b8; color: white; font-size: 0.9rem; cursor: not-allowed; border: 1px solid #b8b8b8; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); opacity: 0.7;">📝 WP available upon request</span></span>
+<div class="abstract-content">This study examines how board chairs' industry association identification influences firms' Environmental Management System (EMS) adoption and how institutional pressures moderate this relationship. Using data from Chinese A-share listed firms (2012-2023) and integrating social identity theory with institutional theory, we show that board chairs holding senior positions in industry associations significantly increase their firms' likelihood of EMS adoption. This effect is amplified when institutional pressures are stronger — specifically, under stricter environmental regulations, higher industry pollution intensity, and greater public environmental concern. We identify three mechanisms through which board chairs' industry association identification drives EMS adoption: increasing corporate environmental investment, enhancing executive environmental awareness, and facilitating access to government environmental subsidies. Our findings contribute to the microfoundations of environmental governance by demonstrating how leaders' identities interact with external pressures to shape corporate environmental strategy.</div>
+
+</div>
