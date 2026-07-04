@@ -4,6 +4,12 @@ url: "/teaching/"
 layout: "single"
 ---
 
+### Xiangtan University
+
+<div class="paper-card">
+<strong>Instructor</strong> (2026) Economic History of China and the World (in Chinese)
+</div>
+
 ### University of Cyprus
 
 <div class="paper-card">
